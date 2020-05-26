@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pre-resize Images plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-16 02:56+0300\n"
+"PO-Revision-Date: 2019-10-16 03:02+0300\n"
+"Last-Translator: teseo\n"
+"Language-Team: osclass.pro\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:33
+msgid "Settings & Help"
+msgstr "Настройки & Помощь"
+
+#: index.php:95 index.php:99 index.php:142 index.php:293
+msgid "Delete"
+msgstr "Удалить"
+
+#: index.php:105 index.php:314
+msgid "Make primary image"
+msgstr "Выберите главное изображение"
+
+#: index.php:118 index.php:123 index.php:288
+msgid "Click or Drop for upload images"
+msgstr "Нажмите или перетащите для загрузки изображений"
+
+#: index.php:120 index.php:124
+msgid "Drag thumbnails to reorder images"
+msgstr "Перетащите изображение для изменения сортировки"
+
+#: index.php:123
+#, php-format
+msgid "(%s max)"
+msgstr "(%s макс)"
+
+#: index.php:127 index.php:289
+msgid "Processing..."
+msgstr "Обработка..."
+
+#: index.php:140 index.php:291
+msgid "Cancel"
+msgstr "Отменить"
+
+#: index.php:141 index.php:290
+msgid "Retry"
+msgstr "Повторить"
+
+#: index.php:212
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+"Это действие не может быть отменено. Вы уверены, что хотите продолжить?"
+
+#: index.php:271
+msgid ""
+"Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
+msgstr ""
+"Слишком много изображений ({netItems}) будет загружено. Предел {itemLimit}."
+
+#: index.php:272
+msgid ""
+"The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr "Файлы загружаются, если вы уходите, загрузка будет отменена."
+
+#: index.php:273
+msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
+msgstr ""
+"{file} имеет недопустимое расширение. Разрешенные расширения: {extensions}."
+
+#: index.php:274
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr "{file} слишком большой, максимальный размер файла {sizeLimit}."
+
+#: index.php:275
+msgid "{file} is empty, please select files again without it."
+msgstr "{file} пустой, выберите файлы еще раз без этого."
+
+#: index.php:292
+msgid "Upload failed"
+msgstr "Ошибка загрузки"
+
+#: index.php:294
+msgid "Deleting..."
+msgstr "Удаление..."
+
+#: index.php:295
+#, php-format
+msgid "{percent}% of {total_size}"
+msgstr "{percent}% из {total_size}"
+
+#: index.php:346
+#, php-format
+msgid "Too many items were uploaded. Item limit is %d."
+msgstr "Слишком много изображений загружено. Ограничения загрузки %d."
+
+#: js/fine-uploader/jquery.fineuploader.min.js:4
+msgid " request for "
+msgstr "запрос на"
+
+#: js/fine-uploader/jquery.fineuploader.min.js:4
+msgid "Sending "
+msgstr "Обработка"
+
+#: prziAjaxUploader.php:34
+msgid "Server error. Upload directory isn't writable."
+msgstr "Ошибка сервера. Каталог загрузки не доступен для записи."
+
+#: prziAjaxUploader.php:37
+msgid "No files were uploaded."
+msgstr "Файлы не загружены."
+
+#: prziAjaxUploader.php:41
+msgid "File is empty"
+msgstr "Файл пуст"
+
+#: prziAjaxUploader.php:44
+msgid "File is too large"
+msgstr "Файл слишком большой"
+
+#: prziAjaxUploader.php:52 prziAjaxUploader.php:65
+#, php-format
+msgid "File has an invalid extension, it should be one of %s."
+msgstr "Файл имеет недопустимое расширение, должно быть таким %s."
+
+#: prziAjaxUploader.php:160
+msgid "Getting content length is not supported."
+msgstr "Получение длины содержимого не поддерживается."
+
+#: prziImageProcessing.php:44
+#, php-format
+msgid "%s does not exist!"
+msgstr "%s не существует!"
+
+#: prziImageProcessing.php:48
+#, php-format
+msgid "%s is not readable!"
+msgstr "%s не читаемый!"
+
+#: prziImageProcessing.php:52
+#, php-format
+msgid "%s is corrupt or broken!"
+msgstr "%s поврежден или сломан!"
+
+#: settings.php:6
+msgid "Settings changed"
+msgstr "Настройки изменены"
+
+#: settings.php:13
+msgid "Pre-resize Images settings"
+msgstr "Pre-resize Images настройки"
+
+#: settings.php:23
+msgid "Maximum size in pixels for any dimension:"
+msgstr "Максимальный размер в пикселях для любого размера"
+
+#: settings.php:32
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: settings.php:50
+msgid ""
+"For this plugin to work you need to make a little modification in your "
+"theme. Find all occurrences of this line:"
+msgstr ""
+"Для работы этого плагина Вам нужно сделать небольшую модификацию в  "
+"шаблоне. Найдите вот такой код:"
+
+#: settings.php:56
+msgid ""
+"Usually found in <strong>item-post.php</strong> and possibly <strong>item-"
+"edit.php</strong> as well"
+msgstr ""
+"Обычно код  находится в  файле шаблона <strong>item-post.php</strong> и в "
+"файле <strong>item-edit.php</strong>"
+
+#: settings.php:58
+msgid "Replace it with:"
+msgstr "Замените на:"
